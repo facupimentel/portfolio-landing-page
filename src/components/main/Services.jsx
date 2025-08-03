@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <>
-      <div className="flex flex-col text-center mt-30">
+      <div className="flex flex-col text-center mt-50">
         <h1 className="text-[40px] mb-5">Services</h1>
         <h2>transformando ideas en experiencias digitales</h2>
       </div>
