@@ -2,7 +2,7 @@
 const AboutMe = () => {
   return (
     <>
-      <div className="mt-30 text-center p-5">
+      <div className="mt-15 text-center p-5">
         <h1 className="mb-10 text-[50px]">About Me</h1>
         <p className="text-[25px] mt-20">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
@@ -14,7 +14,7 @@ const AboutMe = () => {
           doloribus repudiandae libero at quae. Deserunt, officiis itaque.
         </p>
       </div>
-      <section className="text-center mt-20">
+      <section className="text-center mt-10">
         <h2 className="text-[45px]">Skills</h2>
         <article className="flex mt-20 text-[30px]">
           <div className="flex justify-center items-center gap-10">
