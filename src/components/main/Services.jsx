@@ -10,7 +10,7 @@ const Services = () => {
         </h2>
       </div>
       <article className=" flex text-center mt-20 mb-30 items-center gap-15">
-        <div className="bg-gray-700 flex flex-col items-center rounded-[50px] p-15">
+        <div className="bg-[#42d802] text-black flex flex-col items-center rounded-[50px] p-15">
           <img
             src="./img/icon-services/website.png"
             alt="logo"
@@ -20,7 +20,7 @@ const Services = () => {
           <p>creacion de paginas web estaticas</p>
         </div>
 
-        <div className="bg-gray-700 flex flex-col items-center rounded-[50px] p-15">
+        <div className="bg-[#42d802] text-black flex flex-col items-center rounded-[50px] p-15">
           <img
             src="./img/icon-services/mockup-design.png"
             alt="logo"
@@ -30,7 +30,7 @@ const Services = () => {
           <p>diseño, armado y funcionalidad de un sitio web</p>
         </div>
 
-        <div className=" bg-gray-700 flex flex-col items-center rounded-[50px] p-15">
+        <div className=" bg-[#42d802] text-black flex flex-col items-center rounded-[50px] p-15">
           <img
             src="./img/icon-services/backend-coding.png"
             alt="logo"

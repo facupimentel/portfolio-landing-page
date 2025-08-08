@@ -19,10 +19,10 @@ const Main = () => {
             dignissimos excepturi, amet delectus minima non! Praesentium sed sit
             eveniet error quo.
           </p>
-          <button className="p-3 bg-gray-700 text-white rounded-[20px] mr-10 mt-5">
+          <button className="p-3 bg-[#42d802] text-black rounded-[20px] mr-10 mt-5">
             My GitHub
           </button>
-          <button className="p-3 bg-gray-700 text-white rounded-[20px]">
+          <button className="p-3 bg-[#42d802] text-black rounded-[20px]">
             My Linkedin
           </button>
         </div>

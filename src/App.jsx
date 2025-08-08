@@ -1,10 +1,8 @@
 import NavBar from "./components/header/Navbar"
 import Main from "./components/main/Main"
+import Footer from "./components/footer/Footer"
 
 function App() {
-
-
-
   return (
     <body
       className="bg-neutral-900
@@ -12,6 +10,7 @@ function App() {
     >
       <NavBar />
       <Main />
+      <Footer/>
     </body>
   );
 }

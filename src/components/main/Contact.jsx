@@ -7,7 +7,7 @@ const Contact = () => {
         <article className="w-[100%] mb-10">
           <form
             // onSubmit={handleSubmit}
-            className="max-w-lg mx-auto p-6 bg-gray-700 rounded-lg shadow-lg"
+            className="max-w-lg mx-auto p-6 rounded-lg shadow-lg"
           >
             <div className="mb-4">
               <label className="text-white block mb-1 font-medium">
@@ -59,7 +59,7 @@ const Contact = () => {
         </article>
 
         <article className="w-[100%] mb-10 ">
-          <div className="text-center max-w-lg mx-auto p-21 bg-gray-700 rounded-lg shadow-lg">
+          <div className="text-center max-w-lg mx-auto p-21 rounded-lg shadow-lg">
             <h1 className="text-[40px] mb-5  ">Contactame</h1>
             <p className="text-[20px] ">
               Si estas interesado en mis servicios no dudes en ponerte en
