@@ -3,11 +3,10 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-      <section className="flex items-center w-full ">
-        <article className="w-[100%] mb-10">
+      <section className="flex items-center w-full mb-15">
+        <article className="flex justify-center w-[100%]">
           <form
-            // onSubmit={handleSubmit}
-            className="max-w-lg mx-auto p-6 rounded-lg shadow-lg"
+            className="w-[80%] p-6 rounded-lg shadow-lg"
           >
             <div className="mb-4">
               <label className="text-white block mb-1 font-medium">
@@ -16,8 +15,6 @@ const Contact = () => {
               <input
                 type="text"
                 name="name"
-                // value={formData.name}
-                // onChange={handleChange}
                 required
                 className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-purple-400"
               />
@@ -28,8 +25,6 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                // value={formData.email}
-                // onChange={handleChange}
                 required
                 className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-purple-400"
               />
@@ -42,8 +37,6 @@ const Contact = () => {
               <textarea
                 name="message"
                 rows="4"
-                // value={formData.message}
-                // onChange={handleChange}
                 required
                 className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-purple-400"
               ></textarea>
